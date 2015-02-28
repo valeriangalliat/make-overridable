@@ -8,7 +8,7 @@ Example
 -------
 
 ```js
-const { makeOverridable } = require('make-overridable')
+const makeOverridable = require('make-overridable')
 
 const a = makeOverridable(x => x)({
   foo: 'a',
