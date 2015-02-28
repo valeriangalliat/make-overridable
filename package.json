@@ -1,6 +1,6 @@
 {
   "name": "make-overridable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Override design pattern for JavaScript.",
   "license": {
     "type": "Unlicense",
