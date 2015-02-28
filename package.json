@@ -1,0 +1,34 @@
+{
+  "name": "make-overridable",
+  "version": "1.0.0",
+  "description": "Override design pattern for JavaScript.",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "UNLICENSE"
+  ],
+  "homepage": "https://github.com/valeriangalliat/make-overridable",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/make-overridable"
+  },
+  "dependencies": {
+    "extend": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^4.4.5"
+  },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "prepublish": "$npm_package_scripts_build",
+    "test": "$npm_package_scripts_build && babel-node test.js"
+  }
+}
