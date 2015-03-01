@@ -2,6 +2,7 @@
   "name": "make-overridable",
   "version": "1.0.4",
   "description": "Override design pattern for JavaScript.",
+  "homepage": "https://github.com/valeriangalliat/make-overridable",
   "license": {
     "type": "Unlicense",
     "url": "http://unlicense.org/"
@@ -15,7 +16,6 @@
     "README.md",
     "UNLICENSE"
   ],
-  "homepage": "https://github.com/valeriangalliat/make-overridable",
   "repository": {
     "type": "git",
     "url": "https://github.com/valeriangalliat/make-overridable"
