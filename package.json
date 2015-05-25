@@ -3,10 +3,7 @@
   "version": "1.0.5",
   "description": "Override design pattern for JavaScript.",
   "homepage": "https://github.com/valeriangalliat/make-overridable",
-  "license": {
-    "type": "Unlicense",
-    "url": "http://unlicense.org/"
-  },
+  "license": "Unlicense",
   "author": {
     "name": "Valérian Galliat",
     "url": "http://val.codejam.info/"
