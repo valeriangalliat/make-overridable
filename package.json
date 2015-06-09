@@ -17,17 +17,17 @@
     "type": "git",
     "url": "https://github.com/valeriangalliat/make-overridable.git"
   },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "lint": "standard index.es6.js test.js",
+    "prepublish": "npm run build",
+    "test": "npm run build && npm run lint && babel-node test.js"
+  },
   "dependencies": {
     "extend": "^2.0.0"
   },
   "devDependencies": {
     "babel": "^4.4.5",
     "standard": "^4.0.1"
-  },
-  "scripts": {
-    "build": "babel index.es6.js -o index.js",
-    "lint": "standard index.es6.js test.js",
-    "prepublish": "npm run build",
-    "test": "npm run build && npm run lint && babel-node test.js"
   }
 }
